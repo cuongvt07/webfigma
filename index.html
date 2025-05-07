@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Zapatos - Shoe Store</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="homepage">
+      <div class="content">
+        <header class="header">
+          <div class="top-banner">
+            <div class="banner-content">
+              <img
+                src="https://c.animaapp.com/mae3wfnuhN1ekP/img/delivery-truck-fast.svg"
+                alt="Delivery truck"
+                class="icon"
+              />
+              <p class="banner-text">Đơn hàng trên 150k trở lên và nhận GIAO HÀNG MIỄN PHÍ !</p>
+            </div>
+          </div>
+          <div class="main-header">
+            <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/logo.svg" alt="Zapatos logo" class="logo" />
+            <form class="search-form" role="search">
+              <input type="search" placeholder="Tìm kiếm sản phẩm" aria-label="Search products" class="search-input" />
+              <button type="submit" class="search-button">
+                <img
+                  src="https://c.animaapp.com/mae3wfnuhN1ekP/img/search-search-normal.svg"
+                  alt="Search"
+                  class="search-icon"
+                />
+              </button>
+            </form>
+            <nav class="header-nav">
+              <ul class="nav-list">
+                <li>
+                  <a href="tel:+84466239999" class="nav-link"
+                    ><img
+                      src="https://c.animaapp.com/mae3wfnuhN1ekP/img/heroicons-solid-phone.svg"
+                      alt="Phone"
+                      class="nav-icon"
+                    />(804) 6623-9999</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:supportoursmallbusiness@g.com" class="nav-link"
+                    ><img
+                      src="https://c.animaapp.com/mae3wfnuhN1ekP/img/messages-sms.svg"
+                      alt="Email"
+                      class="nav-icon"
+                    />supportoursmallbusiness@g.com</a
+                  >
+                </li>
+                <li>
+                  <button class="nav-dropdown">
+                    <img
+                      src="https://c.animaapp.com/mae3wfnuhN1ekP/img/essentional-info-circle.svg"
+                      alt="Info"
+                      class="nav-icon"
+                    />
+                    Info
+                    <img
+                      src="https://c.animaapp.com/mae3wfnuhN1ekP/img/heroicons-mini-chevron-down.svg"
+                      alt="Dropdown"
+                      class="dropdown-icon"
+                    />
+                  </button>
+                </li>
+                <li>
+                  <button class="nav-dropdown">
+                    <img
+                      src="https://c.animaapp.com/mae3wfnuhN1ekP/img/users-profile.svg"
+                      alt="User profile"
+                      class="nav-icon"
+                    />
+                    <img
+                      src="https://c.animaapp.com/mae3wfnuhN1ekP/img/heroicons-mini-chevron-down.svg"
+                      alt="Dropdown"
+                      class="dropdown-icon"
+                    />
+                  </button>
+                </li>
+                <li>
+                  <button class="nav-icon-button">
+                    <img
+                      src="https://c.animaapp.com/mae3wfnuhN1ekP/img/heroicons-solid-heart.svg"
+                      alt="Favorites"
+                      class="nav-icon"
+                    />
+                  </button>
+                </li>
+                <li>
+                  <button class="nav-icon-button cart-button">
+                    <img
+                      src="https://c.animaapp.com/mae3wfnuhN1ekP/img/vector-1.svg"
+                      alt="Shopping cart"
+                      class="nav-icon"
+                    />
+                    <span class="cart-count">1</span>
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <nav class="category-nav">
+            <ul class="category-list">
+              <li>
+                <a href="pages/product-category.html" class="category-button">
+                  NAM<img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/arrows---v-triangle-down.svg"
+                    alt="Dropdown"
+                    class="dropdown-icon"
+                  />
+                </a>
+              </li>
+              <li>
+                <button class="category-button">
+                  TRẺ EM<img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/arrows---v-triangle-down.svg"
+                    alt="Dropdown"
+                    class="dropdown-icon"
+                  />
+                </button>
+              </li>
+              <li>
+                <button class="category-button">
+                  NỮ<img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/arrows---v-triangle-down.svg"
+                    alt="Dropdown"
+                    class="dropdown-icon"
+                  />
+                </button>
+              </li>
+              <li>
+                <button class="category-button">
+                  SPORT<img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/arrows---v-triangle-down.svg"
+                    alt="Dropdown"
+                    class="dropdown-icon"
+                  />
+                </button>
+              </li>
+              <li>
+                <button class="category-button">
+                  THƯƠNG HIỆU<img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/arrows---v-triangle-down.svg"
+                    alt="Dropdown"
+                    class="dropdown-icon"
+                  />
+                </button>
+              </li>
+              <li>
+                <button class="category-button">
+                  DÉP<img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/arrows---v-triangle-down.svg"
+                    alt="Dropdown"
+                    class="dropdown-icon"
+                  />
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <section class="hero-banner">
+            <h1 class="hero-title">Zapatos</h1>
+            <div class="hero-content">
+              <p class="hero-description">
+                Khám phá những sản phẩm mới nhất, phiên bản giới hạn và phong cách cổ điển được thiết kế cho từng bước
+                trong hành trình của bạn
+              </p>
+              <img
+                class="hero-image"
+                src="https://c.animaapp.com/mae3wfnuhN1ekP/img/image-29.png"
+                alt="Featured shoe"
+              />
+              <div class="hero-features">
+                <p class="feature-title">Chất lượng bạn có thể tin tưởng</p>
+                <div class="feature-list">
+                  <button class="feature-button">
+                    <img
+                      src="https://c.animaapp.com/mae3wfnuhN1ekP/img/delivery-truck-fast-1.svg"
+                      alt="Shipping"
+                      class="feature-icon"
+                    />
+                    <span>Shipping</span>
+                  </button>
+                  <button class="feature-button">
+                    <img
+                      src="https://c.animaapp.com/mae3wfnuhN1ekP/img/delivery-box.svg"
+                      alt="Delivery"
+                      class="feature-icon"
+                    />
+                    <span>vvvh</span>
+                  </button>
+                  <button class="feature-button">
+                    <img
+                      src="https://c.animaapp.com/mae3wfnuhN1ekP/img/heroicons-outline-shield-check.svg"
+                      alt="Warranty"
+                      class="feature-icon"
+                    />
+                    <span>Waranty</span>
+                  </button>
+                  <button class="feature-button">
+                    <img
+                      src="https://c.animaapp.com/mae3wfnuhN1ekP/img/essentional-information.svg"
+                      alt="FAQ"
+                      class="feature-icon"
+                    />
+                    <span>FAQ</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div style="text-align: center;">
+              <a href="#new-arrivals" class="cta-button">Khám phá hàng mới<span class="arrow-icon-add"></span></a>
+            </div>
+            <div class="hero-navigation">
+              <button class="nav-button prev" aria-label="Previous slide">
+                <img
+                  src="https://c.animaapp.com/mae3wfnuhN1ekP/img/heroicons-solid-chevron-right-1.svg"
+                  alt="Previous"
+                />
+              </button>
+              <button class="nav-button next" aria-label="Next slide">
+                <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/heroicons-solid-chevron-right.svg" alt="Next" />
+              </button>
+            </div>
+          </section>
+          <section class="categories">
+            <h2 class="section-title">DANH MỤC</h2>
+            <div class="category-grid">
+              <a
+                href="#"
+                class="category-card"
+                style="background-image: url(https://c.animaapp.com/mae3wfnuhN1ekP/img/category-card-6.png)"
+              ></a>
+              <a
+                href="#"
+                class="category-card"
+                style="background-image: url(https://c.animaapp.com/mae3wfnuhN1ekP/img/category-card-1.png)"
+              ></a>
+              <a
+                href="#"
+                class="category-card"
+                style="background-image: url(https://c.animaapp.com/mae3wfnuhN1ekP/img/category-card-2.png)"
+              ></a>
+              <a
+                href="#"
+                class="category-card"
+                style="background-image: url(https://c.animaapp.com/mae3wfnuhN1ekP/img/category-card-3.png)"
+              ></a>
+              <a
+                href="#"
+                class="category-card"
+                style="background-image: url(https://c.animaapp.com/mae3wfnuhN1ekP/img/category-card-4.png)"
+              ></a>
+              <a
+                href="#"
+                class="category-card"
+                style="background-image: url(https://c.animaapp.com/mae3wfnuhN1ekP/img/category-card-5.png)"
+              ></a>
+            </div>
+          </section>
+          <section class="featured-sale">
+            <div class="section-header">
+                <h2 class="section-title">SIÊU KHUYẾN MÃI</h2>
+            </div>
+            <a href="#" class="view-all">Xem thêm<span class="arrow-icon"></span></a>
+            <div class="product-grid">
+              <article class="product-card">
+                <div class="product-image">
+                  <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                  <span class="sale-badge">SALE!</span>
+                  <button class="favorite-button" aria-label="Add to favorites">
+                    <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                  </button>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title">BROOKS GHOST 15</h3>
+                  <div class="product-rating">
+                    <div class="star-rating" aria-label="4.9 out of 5 stars">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                    </div>
+                    <span class="rating-count">4.9 (15 đánh giá)</span>
+                  </div>
+                  <div class="product-price">
+                    <del class="original-price">1,000,000 đ</del>
+                    <ins class="sale-price">500,000 đ</ins>
+                  </div>
+                  <div class="product-features">
+                    <h4 class="features-title">Đặc điểm:</h4>
+                    <p class="features-description">Nhẹ, thoáng mát</p>
+                  </div>
+                </div>
+                <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+              </article>
+              <article class="product-card">
+                <div class="product-image">
+                  <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                  <span class="sale-badge">SALE!</span>
+                  <button class="favorite-button" aria-label="Add to favorites">
+                    <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                  </button>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title">BROOKS GHOST 15</h3>
+                  <div class="product-rating">
+                    <div class="star-rating" aria-label="4.9 out of 5 stars">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                    </div>
+                    <span class="rating-count">4.9 (15 đánh giá)</span>
+                  </div>
+                  <div class="product-price">
+                    <del class="original-price">1,000,000 đ</del>
+                    <ins class="sale-price">500,000 đ</ins>
+                  </div>
+                  <div class="product-features">
+                    <h4 class="features-title">Đặc điểm:</h4>
+                    <p class="features-description">Nhẹ, thoáng mát</p>
+                  </div>
+                </div>
+                <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+              </article>
+              <article class="product-card">
+                <div class="product-image">
+                  <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                  <span class="sale-badge">SALE!</span>
+                  <button class="favorite-button" aria-label="Add to favorites">
+                    <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                  </button>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title">BROOKS GHOST 15</h3>
+                  <div class="product-rating">
+                    <div class="star-rating" aria-label="4.9 out of 5 stars">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                    </div>
+                    <span class="rating-count">4.9 (15 đánh giá)</span>
+                  </div>
+                  <div class="product-price">
+                    <del class="original-price">1,000,000 đ</del>
+                    <ins class="sale-price">500,000 đ</ins>
+                  </div>
+                  <div class="product-features">
+                    <h4 class="features-title">Đặc điểm:</h4>
+                    <p class="features-description">Nhẹ, thoáng mát</p>
+                  </div>
+                </div>
+                <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+              </article>
+              <article class="product-card">
+                <div class="product-image">
+                  <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                  <span class="sale-badge">SALE!</span>
+                  <button class="favorite-button" aria-label="Add to favorites">
+                    <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                  </button>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title">BROOKS GHOST 15</h3>
+                  <div class="product-rating">
+                    <div class="star-rating" aria-label="4.9 out of 5 stars">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                    </div>
+                    <span class="rating-count">4.9 (15 đánh giá)</span>
+                  </div>
+                  <div class="product-price">
+                    <del class="original-price">1,000,000 đ</del>
+                    <ins class="sale-price">500,000 đ</ins>
+                  </div>
+                  <div class="product-features">
+                    <h4 class="features-title">Đặc điểm:</h4>
+                    <p class="features-description">Nhẹ, thoáng mát</p>
+                  </div>
+                </div>
+                <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+              </article>
+              <article class="product-card">
+                <div class="product-image">
+                  <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                  <span class="sale-badge">SALE!</span>
+                  <button class="favorite-button" aria-label="Add to favorites">
+                    <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                  </button>
+                </div>
+                <div class="product-info">
+                  <h3 class="product-title">BROOKS GHOST 15</h3>
+                  <div class="product-rating">
+                    <div class="star-rating" aria-label="4.9 out of 5 stars">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                    </div>
+                    <span class="rating-count">4.9 (15 đánh giá)</span>
+                  </div>
+                  <div class="product-price">
+                    <del class="original-price">1,000,000 đ</del>
+                    <ins class="sale-price">500,000 đ</ins>
+                  </div>
+                  <div class="product-features">
+                    <h4 class="features-title">Đặc điểm:</h4>
+                    <p class="features-description">Nhẹ, thoáng mát</p>
+                  </div>
+                </div>
+                <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+              </article>
+            </div>
+            <div class="carousel-indicators">
+              <button class="indicator active" aria-label="Go to slide 1"></button>
+              <button class="indicator" aria-label="Go to slide 2"></button>
+              <button class="indicator" aria-label="Go to slide 3"></button>
+              <button class="indicator" aria-label="Go to slide 4"></button>
+            </div>
+          </section>
+          <section class="featured-models">
+            <h2 class="section-title">MẪU GIÀY HOT</h2>
+            <div class="model-grid">
+              <a
+                href="#"
+                class="model-card large"
+                style="background-image: url(https://c.animaapp.com/mae3wfnuhN1ekP/img/category-card-6.png)"
+              ></a>
+              <a
+                href="#"
+                class="model-card"
+                style="background-image: url(https://c.animaapp.com/mae3wfnuhN1ekP/img/category-card-7.png)"
+              ></a>
+              <a
+                href="#"
+                class="model-card"
+                style="background-image: url(https://c.animaapp.com/mae3wfnuhN1ekP/img/category-card-8.png)"
+              ></a>
+              <a
+                href="#"
+                class="model-card"
+                style="background-image: url(https://c.animaapp.com/mae3wfnuhN1ekP/img/category-card-9.png)"
+              ></a>
+            </div>
+          </section>
+          <section class="brands">
+            <div class="section-header">
+              <h2 class="section-title">THƯƠNG HIỆU</h2>
+            </div>
+            <a href="#" class="view-all">Xem thêm<span class="arrow-icon"></span></a>
+            <div class="brand-list">
+              <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/image-40.png" alt="Brand logo" class="brand-logo" />
+              <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/image-38.png" alt="Brand logo" class="brand-logo" />
+              <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/image-39.png" alt="Brand logo" class="brand-logo" />
+              <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/image-37.png" alt="Brand logo" class="brand-logo" />
+              <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/image-42.png" alt="Brand logo" class="brand-logo" />
+              <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/image-44.png" alt="Brand logo" class="brand-logo" />
+              <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/image-36.png" alt="Brand logo" class="brand-logo" />
+            </div>
+          </section>
+          <section class="blog-posts">
+            <div class="section-header">
+              <h2 class="section-title">TIN TỨC</h2>
+            </div>
+            <a href="#" class="view-all">Xem thêm<span class="arrow-icon"></span></a>
+
+            <div class="post-grid">
+              <article class="blog-card">
+                <img
+                  src="https://c.animaapp.com/mae3wfnuhN1ekP/img/rectangle-304-3.png"
+                  alt="Blog post image"
+                  class="post-image"
+                />
+                <div class="post-content">
+                  <h3 class="post-title">Phong cách lựa chọn giày cho giới trẻ hiện nay</h3>
+                  <p class="post-excerpt">Thời nay ....</p>
+                  <a href="#" class="read-more">Xem thêm<span class="arrow-icon"></span></a>
+                </div>
+              </article>
+              <article class="blog-card">
+                <img
+                  src="https://c.animaapp.com/mae3wfnuhN1ekP/img/rectangle-304-3.png"
+                  alt="Blog post image"
+                  class="post-image"
+                />
+                <div class="post-content">
+                  <h3 class="post-title">Phong cách lựa chọn giày cho giới trẻ hiện nay</h3>
+                  <p class="post-excerpt">Thời nay ....</p>
+                  <a href="#" class="read-more">Xem thêm<span class="arrow-icon"></span></a>
+                </div>
+              </article>
+              <article class="blog-card">
+                <img
+                  src="https://c.animaapp.com/mae3wfnuhN1ekP/img/rectangle-304-3.png"
+                  alt="Blog post image"
+                  class="post-image"
+                />
+                <div class="post-content">
+                  <h3 class="post-title">Phong cách lựa chọn giày cho giới trẻ hiện nay</h3>
+                  <p class="post-excerpt">Thời nay ....</p>
+                  <a href="#" class="read-more">Xem thêm<span class="arrow-icon"></span></a>
+                </div>
+              </article>
+              <article class="blog-card">
+                <img
+                  src="https://c.animaapp.com/mae3wfnuhN1ekP/img/rectangle-304-3.png"
+                  alt="Blog post image"
+                  class="post-image"
+                />
+                <div class="post-content">
+                  <h3 class="post-title">Phong cách lựa chọn giày cho giới trẻ hiện nay</h3>
+                  <p class="post-excerpt">Thời nay ....</p>
+                  <a href="#" class="read-more">Xem thêm<span class="arrow-icon"></span></a>
+                </div>
+              </article>
+            </div>
+            <div class="carousel-indicators">
+              <button class="indicator active" aria-label="Go to slide 1"></button>
+              <button class="indicator" aria-label="Go to slide 2"></button>
+              <button class="indicator" aria-label="Go to slide 3"></button>
+              <button class="indicator" aria-label="Go to slide 4"></button>
+            </div>
+          </section>
+        </main>
+        <footer class="footer">
+          <div class="newsletter">
+            <div class="newsletter-content">
+              <h2 class="newsletter-title">Hãy là người đầu tiên biết về các đợt giảm giá mới và ưu đãi độc quyền!</h2>
+              <p class="newsletter-description">
+                Đăng ký nhận bản tin của chúng tôi để có quyền truy cập sớm, ưu đãi đặc biệt và xu hướng mới nhất.
+              </p>
+            </div>
+            <form class="newsletter-form">
+              <input
+                type="email"
+                placeholder="Your Email"
+                aria-label="Your email address"
+                required
+                class="newsletter-input"
+              />
+              <button type="submit" class="newsletter-submit">ĐĂNG KÝ<span class="arrow-icon"></span></button>
+            </form>
+          </div>
+          <div class="footer-content">
+            <div class="footer-info">
+              <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/logo.svg" alt="Zapatos logo" class="footer-logo" />
+              <p class="footer-description">
+                Không chỉ là giày, mà còn là một tuyên bố.<br />Những cú đá được thiết kế để giúp bạn đi trước một bước
+              </p>
+              <div class="social-links">
+                <a href="#" class="social-link" aria-label="Facebook"
+                  ><img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/social-icons.svg" alt="Facebook icon"
+                /></a>
+                <a href="#" class="social-link" aria-label="Twitter"
+                  ><img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/social-icons-1.svg" alt="Twitter icon"
+                /></a>
+                <a href="#" class="social-link" aria-label="Instagram"
+                  ><img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/social-icons-2.svg" alt="Instagram icon"
+                /></a>
+                <a href="#" class="social-link" aria-label="YouTube"
+                  ><img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/social-icons-3.svg" alt="YouTube icon"
+                /></a>
+              </div>
+              <div class="contact-info">
+                <p><img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/phone.svg" alt="Phone icon" /> 08978978789</p>
+                <p>
+                  <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/mail.svg" alt="Email icon" />
+                  supportoursmallbusiness@g.com
+                </p>
+              </div>
+            </div>
+            <nav class="footer-nav">
+              <div class="footer-nav-column">
+                <h3 class="footer-nav-title">SHOP</h3>
+                <ul>
+                  <li><a href="#">Nam</a></li>
+                  <li><a href="#">Trẻ Em</a></li>
+                  <li><a href="#">Nữ</a></li>
+                </ul>
+              </div>
+              <div class="footer-nav-column">
+                <h3 class="footer-nav-title">THƯƠNG HIỆU</h3>
+                <ul>
+                  <li><a href="#">Adidas</a></li>
+                  <li><a href="#">Nike</a></li>
+                  <li><a href="#">Fila</a></li>
+                  <li><a href="#">Brooks</a></li>
+                  <li><a href="#">Mizuna</a></li>
+                  <li><a href="#">Salomon</a></li>
+                </ul>
+              </div>
+              <div class="footer-nav-column">
+                <h3 class="footer-nav-title">CHÍNH SÁCH</h3>
+                <ul>
+                  <li><a href="#">Thông tin</a></li>
+                  <li><a href="#">Vận chuyển</a></li>
+                  <li><a href="#">Điều khoản và điều kiện</a></li>
+                  <li><a href="#">Chính sách bảo mật</a></li>
+                </ul>
+              </div>
+              <div class="footer-nav-column">
+                <h3 class="footer-nav-title">HỖ TRỢ</h3>
+                <ul>
+                  <li><a href="#">Về chúng tôi</a></li>
+                  <li><a href="#">FAQ's</a></li>
+                  <li><a href="#">Liên hệ với chúng tôi</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div class="footer-bottom">
+            <div class="payment-methods">
+              <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/vector.svg" alt="Visa" style="width: 50px; height: 50px; object-fit: contain;" />
+              <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/frame-1.svg" alt="Mastercard" style="width: 50px; height: 50px; object-fit: contain;" />
+              <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/frame.svg" alt="American Express" style="width: 50px; height: 50px; object-fit: contain;" />
+              <img
+                src="https://c.animaapp.com/mae3wfnuhN1ekP/img/paypal-logo-white-png-horizontal-1.png"
+                alt="PayPal"
+                style="width: 50px; height: 50px; object-fit: contain;"
+              />
+            </div>
+          </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

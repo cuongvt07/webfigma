@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+        <div class="top-banner">
+          <div class="banner-content">
+            <img
+              src="https://c.animaapp.com/mae3wfnuhN1ekP/img/delivery-truck-fast.svg"
+              alt="Delivery truck"
+              class="icon"
+            />
+            <p class="banner-text">Đơn hàng trên 150k trở lên và nhận GIAO HÀNG MIỄN PHÍ !</p>
+          </div>
+        </div>
+        <div class="main-header">
+          <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/logo.svg" alt="Zapatos logo" class="logo" />
+          <form class="search-form" role="search">
+            <input type="search" placeholder="Tìm kiếm sản phẩm" aria-label="Search products" class="search-input" />
+            <button type="submit" class="search-button">
+              <img
+                src="https://c.animaapp.com/mae3wfnuhN1ekP/img/search-search-normal.svg"
+                alt="Search"
+                class="search-icon"
+              />
+            </button>
+          </form>
+          <nav class="header-nav">
+            <ul class="nav-list">
+              <li>
+                <a href="tel:+84466239999" class="nav-link"
+                  ><img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/heroicons-solid-phone.svg"
+                    alt="Phone"
+                    class="nav-icon"
+                  />(804) 6623-9999</a
+                >
+              </li>
+              <li>
+                <a href="mailto:supportoursmallbusiness@g.com" class="nav-link"
+                  ><img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/messages-sms.svg"
+                    alt="Email"
+                    class="nav-icon"
+                  />supportoursmallbusiness@g.com</a
+                >
+              </li>
+              <li>
+                <button class="nav-dropdown">
+                  <img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/essentional-info-circle.svg"
+                    alt="Info"
+                    class="nav-icon"
+                  />
+                  Info
+                  <img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/heroicons-mini-chevron-down.svg"
+                    alt="Dropdown"
+                    class="dropdown-icon"
+                  />
+                </button>
+              </li>
+              <li>
+                <button class="nav-dropdown">
+                  <img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/users-profile.svg"
+                    alt="User profile"
+                    class="nav-icon"
+                  />
+                  <img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/heroicons-mini-chevron-down.svg"
+                    alt="Dropdown"
+                    class="dropdown-icon"
+                  />
+                </button>
+              </li>
+              <li>
+                <button class="nav-icon-button">
+                  <img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/heroicons-solid-heart.svg"
+                    alt="Favorites"
+                    class="nav-icon"
+                  />
+                </button>
+              </li>
+              <li>
+                <button class="nav-icon-button cart-button">
+                  <img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/vector-1.svg"
+                    alt="Shopping cart"
+                    class="nav-icon"
+                  />
+                  <span class="cart-count">1</span>
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <nav class="category-nav">
+          <ul class="category-list">
+            <li>
+              <a href="pages/product-category.html" class="category-button">
+                NAM<img
+                  src="https://c.animaapp.com/mae3wfnuhN1ekP/img/arrows---v-triangle-down.svg"
+                  alt="Dropdown"
+                  class="dropdown-icon"
+                />
+              </a>
+            </li>
+            <li>
+              <button class="category-button">
+                TRẺ EM<img
+                  src="https://c.animaapp.com/mae3wfnuhN1ekP/img/arrows---v-triangle-down.svg"
+                  alt="Dropdown"
+                  class="dropdown-icon"
+                />
+              </button>
+            </li>
+            <li>
+              <button class="category-button">
+                NỮ<img
+                  src="https://c.animaapp.com/mae3wfnuhN1ekP/img/arrows---v-triangle-down.svg"
+                  alt="Dropdown"
+                  class="dropdown-icon"
+                />
+              </button>
+            </li>
+            <li>
+              <button class="category-button">
+                SPORT<img
+                  src="https://c.animaapp.com/mae3wfnuhN1ekP/img/arrows---v-triangle-down.svg"
+                  alt="Dropdown"
+                  class="dropdown-icon"
+                />
+              </button>
+            </li>
+            <li>
+              <button class="category-button">
+                THƯƠNG HIỆU<img
+                  src="https://c.animaapp.com/mae3wfnuhN1ekP/img/arrows---v-triangle-down.svg"
+                  alt="Dropdown"
+                  class="dropdown-icon"
+                />
+              </button>
+            </li>
+            <li>
+              <button class="category-button">
+                DÉP<img
+                  src="https://c.animaapp.com/mae3wfnuhN1ekP/img/arrows---v-triangle-down.svg"
+                  alt="Dropdown"
+                  class="dropdown-icon"
+                />
+              </button>
+            </li>
+          </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <form class="registration-form">
+            <h1>ĐĂNG NHẬP</h1>
+            <div class="form-group">
+            <label for="email">Email <span class="required">*</span></label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+            <label for="password">Password <span class="required">*</span></label>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="submit-btn">ĐĂNG NHẬP</button>
+            <button type="submit" class="submit-btn" style="background-color: white; color: black; border: 1px solid black;">ĐĂNG KÝ</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="newsletter">
+          <div class="newsletter-content">
+            <h2 class="newsletter-title">Hãy là người đầu tiên biết về các đợt giảm giá mới và ưu đãi độc quyền!</h2>
+            <p class="newsletter-description">
+              Đăng ký nhận bản tin của chúng tôi để có quyền truy cập sớm, ưu đãi đặc biệt và xu hướng mới nhất.
+            </p>
+          </div>
+          <form class="newsletter-form">
+            <input
+              type="email"
+              placeholder="Your Email"
+              aria-label="Your email address"
+              required
+              class="newsletter-input"
+            />
+            <button type="submit" class="newsletter-submit">ĐĂNG KÝ<span class="arrow-icon"></span></button>
+          </form>
+        </div>
+        <div class="footer-content">
+          <div class="footer-info">
+            <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/logo.svg" alt="Zapatos logo" class="footer-logo" />
+            <p class="footer-description">
+              Không chỉ là giày, mà còn là một tuyên bố.<br />Những cú đá được thiết kế để giúp bạn đi trước một bước
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Facebook"
+                ><img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/social-icons.svg" alt="Facebook icon"
+              /></a>
+              <a href="#" class="social-link" aria-label="Twitter"
+                ><img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/social-icons-1.svg" alt="Twitter icon"
+              /></a>
+              <a href="#" class="social-link" aria-label="Instagram"
+                ><img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/social-icons-2.svg" alt="Instagram icon"
+              /></a>
+              <a href="#" class="social-link" aria-label="YouTube"
+                ><img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/social-icons-3.svg" alt="YouTube icon"
+              /></a>
+            </div>
+            <div class="contact-info">
+              <p><img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/phone.svg" alt="Phone icon" /> 08978978789</p>
+              <p>
+                <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/mail.svg" alt="Email icon" />
+                supportoursmallbusiness@g.com
+              </p>
+            </div>
+          </div>
+          <nav class="footer-nav">
+            <div class="footer-nav-column">
+              <h3 class="footer-nav-title">SHOP</h3>
+              <ul>
+                <li><a href="/pages/product-category.html">Nam</a></li>
+                <li><a href="#">Trẻ Em</a></li>
+                <li><a href="#">Nữ</a></li>
+              </ul>
+            </div>
+            <div class="footer-nav-column">
+              <h3 class="footer-nav-title">THƯƠNG HIỆU</h3>
+              <ul>
+                <li><a href="#">Adidas</a></li>
+                <li><a href="#">Nike</a></li>
+                <li><a href="#">Fila</a></li>
+                <li><a href="#">Brooks</a></li>
+                <li><a href="#">Mizuna</a></li>
+                <li><a href="#">Salomon</a></li>
+              </ul>
+            </div>
+            <div class="footer-nav-column">
+              <h3 class="footer-nav-title">CHÍNH SÁCH</h3>
+              <ul>
+                <li><a href="#">Thông tin</a></li>
+                <li><a href="#">Vận chuyển</a></li>
+                <li><a href="#">Điều khoản và điều kiện</a></li>
+                <li><a href="#">Chính sách bảo mật</a></li>
+              </ul>
+            </div>
+            <div class="footer-nav-column">
+              <h3 class="footer-nav-title">HỖ TRỢ</h3>
+              <ul>
+                <li><a href="#">Về chúng tôi</a></li>
+                <li><a href="#">FAQ's</a></li>
+                <li><a href="#">Liên hệ với chúng tôi</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <div class="payment-methods">
+            <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/vector.svg" alt="Visa" style="width: 50px; height: 50px; object-fit: contain;" />
+            <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/frame-1.svg" alt="Mastercard" style="width: 50px; height: 50px; object-fit: contain;" />
+            <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/frame.svg" alt="American Express" style="width: 50px; height: 50px; object-fit: contain;" />
+            <img
+              src="https://c.animaapp.com/mae3wfnuhN1ekP/img/paypal-logo-white-png-horizontal-1.png"
+              alt="PayPal"
+              style="width: 50px; height: 50px; object-fit: contain;"
+            />
+          </div>
+        </div>
+        </div>
+      </footer>
+  </body>
+</html>

@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Category Page</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+        <div class="top-banner">
+          <div class="banner-content">
+            <img
+              src="https://c.animaapp.com/mae3wfnuhN1ekP/img/delivery-truck-fast.svg"
+              alt="Delivery truck"
+              class="icon"
+            />
+            <p class="banner-text">Đơn hàng trên 150k trở lên và nhận GIAO HÀNG MIỄN PHÍ !</p>
+          </div>
+        </div>
+        <div class="main-header">
+          <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/logo.svg" alt="Zapatos logo" class="logo" />
+          <form class="search-form" role="search">
+            <input type="search" placeholder="Tìm kiếm sản phẩm" aria-label="Search products" class="search-input" />
+            <button type="submit" class="search-button">
+              <img
+                src="https://c.animaapp.com/mae3wfnuhN1ekP/img/search-search-normal.svg"
+                alt="Search"
+                class="search-icon"
+              />
+            </button>
+          </form>
+          <nav class="header-nav">
+            <ul class="nav-list">
+              <li>
+                <a href="tel:+84466239999" class="nav-link"
+                  ><img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/heroicons-solid-phone.svg"
+                    alt="Phone"
+                    class="nav-icon"
+                  />(804) 6623-9999</a
+                >
+              </li>
+              <li>
+                <a href="mailto:supportoursmallbusiness@g.com" class="nav-link"
+                  ><img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/messages-sms.svg"
+                    alt="Email"
+                    class="nav-icon"
+                  />supportoursmallbusiness@g.com</a
+                >
+              </li>
+              <li>
+                <button class="nav-dropdown">
+                  <img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/essentional-info-circle.svg"
+                    alt="Info"
+                    class="nav-icon"
+                  />
+                  Info
+                  <img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/heroicons-mini-chevron-down.svg"
+                    alt="Dropdown"
+                    class="dropdown-icon"
+                  />
+                </button>
+              </li>
+              <li>
+                <button class="nav-dropdown">
+                  <img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/users-profile.svg"
+                    alt="User profile"
+                    class="nav-icon"
+                  />
+                  <img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/heroicons-mini-chevron-down.svg"
+                    alt="Dropdown"
+                    class="dropdown-icon"
+                  />
+                </button>
+              </li>
+              <li>
+                <button class="nav-icon-button">
+                  <img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/heroicons-solid-heart.svg"
+                    alt="Favorites"
+                    class="nav-icon"
+                  />
+                </button>
+              </li>
+              <li>
+                <button class="nav-icon-button cart-button">
+                  <img
+                    src="https://c.animaapp.com/mae3wfnuhN1ekP/img/vector-1.svg"
+                    alt="Shopping cart"
+                    class="nav-icon"
+                  />
+                  <span class="cart-count">1</span>
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <nav class="category-nav">
+          <ul class="category-list">
+            <li>
+              <a href="#" class="category-button">
+                NAM<img
+                  src="https://c.animaapp.com/mae3wfnuhN1ekP/img/arrows---v-triangle-down.svg"
+                  alt="Dropdown"
+                  class="dropdown-icon"
+                />
+              </a>
+            </li>
+            <li>
+              <button class="category-button">
+                TRẺ EM<img
+                  src="https://c.animaapp.com/mae3wfnuhN1ekP/img/arrows---v-triangle-down.svg"
+                  alt="Dropdown"
+                  class="dropdown-icon"
+                />
+              </button>
+            </li>
+            <li>
+              <button class="category-button">
+                NỮ<img
+                  src="https://c.animaapp.com/mae3wfnuhN1ekP/img/arrows---v-triangle-down.svg"
+                  alt="Dropdown"
+                  class="dropdown-icon"
+                />
+              </button>
+            </li>
+            <li>
+              <button class="category-button">
+                SPORT<img
+                  src="https://c.animaapp.com/mae3wfnuhN1ekP/img/arrows---v-triangle-down.svg"
+                  alt="Dropdown"
+                  class="dropdown-icon"
+                />
+              </button>
+            </li>
+            <li>
+              <button class="category-button">
+                THƯƠNG HIỆU<img
+                  src="https://c.animaapp.com/mae3wfnuhN1ekP/img/arrows---v-triangle-down.svg"
+                  alt="Dropdown"
+                  class="dropdown-icon"
+                />
+              </button>
+            </li>
+            <li>
+              <button class="category-button">
+                DÉP<img
+                  src="https://c.animaapp.com/mae3wfnuhN1ekP/img/arrows---v-triangle-down.svg"
+                  alt="Dropdown"
+                  class="dropdown-icon"
+                />
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div style="">
+        <div style="align-self: stretch; overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: center; gap: 48px; display: flex">
+          <div style="align-self: stretch; justify-content: flex-start; align-items: center; display: inline-flex">
+            <div data-icon-only="False" data-label="true" data-left-icon="false" data-right-icon="false" data-size="Small" data-state="Default" data-style="Plain" data-type="Default" style="padding-top: 8px; padding-bottom: 8px; padding-right: 16px; justify-content: center; align-items: center; gap: 6px; display: flex">
+              <div style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Token-Text-CONTRAST, #010101); font-size: 18px; font-family: Open Sans; font-weight: 400; text-decoration: underline; line-height: 28px; word-wrap: break-word">HOME</div>
+            </div>
+            <div data-icon-only="True" data-label="true" data-left-icon="true" data-right-icon="false" data-size="Small" data-state="Default" data-style="Plain" data-type="Default" style="padding: 8px; justify-content: center; align-items: center; gap: 6px; display: flex">
+              <div style="width: 16px; height: 16px; position: relative; overflow: hidden">
+                <div style="width: 4.60px; height: 8px; left: 6.40px; top: 4px; position: absolute; background: var(--Colors-Token-Icon-Default, #B0B0B0)"></div>
+              </div>
+            </div>
+            <div data-icon-only="False" data-label="true" data-left-icon="false" data-right-icon="false" data-size="Small" data-state="Default" data-style="Plain" data-type="Default" style="padding-left: 16px; padding-right: 16px; padding-top: 8px; padding-bottom: 8px; justify-content: center; align-items: center; gap: 6px; display: flex">
+              <div style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Token-Text-CONTRAST-4, #888888); font-size: 18px; font-family: Open Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">NAM</div>
+            </div>
+          </div>
+          <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
+            <div data-alignment="Center" data-device="Desktop" data-line="Below" style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+              <div style="align-self: stretch; flex-direction: column; justify-content: center; align-items: flex-start; gap: 24px; display: flex">
+                <div style="flex-direction: column; justify-content: center; align-items: center; gap: 6px; display: flex">
+                  <div style="text-align: center; color: var(--Colors-Token-Text-CONTRAST, #010101); font-size: 30px; font-family: Poppins; font-weight: 500; line-height: 36px; word-wrap: break-word">GIÀY NAM</div>
+                </div>
+              </div>
+            </div>
+            <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
+              <div style="align-self: stretch; flex-direction: column; justify-content: center; align-items: center; gap: 6px; display: flex">
+                <div style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                  <div style="flex: 1 1 0; color: var(--Colors-Token-Text-CONTRAST-3, #6D6D6D); font-size: 24px; font-family: Poppins; font-weight: 400; line-height: 32px; word-wrap: break-word">Phổ biến → </div>
+                </div>
+              </div>
+              <div style="align-self: stretch; justify-content: center; align-items: center; gap: 16px; display: inline-flex">
+                <div data-devices="Desktop" data-state="Default" style="flex: 1 1 0; height: 376px; position: relative; overflow: hidden; background-image: url(/image/IMAGES.png); flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+                  <div data-kind="C4" data-variant="CATEGORY" style="align-self: stretch; flex: 1 1 0; background: var(--Colors-Token-Backgorund-Base-3, #ECECEC); flex-direction: column; justify-content: flex-end; align-items: flex-start; gap: 10px; display: flex">
+                    <img style="align-self: stretch; flex: 1 1 0" src="/image/IMAGES.png" />
+                  </div>
+                  <div style="padding: 24px; left: 0px; top: 276px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+                    <div data-icon-only="False" data-label="true" data-left-icon="false" data-right-icon="true" data-size="Normal" data-state="Default" data-style="White" data-type="Default" style="padding-left: 16px; padding-right: 16px; padding-top: 12px; padding-bottom: 12px; background: var(--Colors-Token-Button-White, white); box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12); justify-content: center; align-items: center; gap: 6px; display: inline-flex">
+                      <div style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Token-Text-CONTRAST, #010101); font-size: 18px; font-family: Open Sans; font-weight: 600; line-height: 28px; word-wrap: break-word">ATHLETIC SHOES</div>
+                      <div style="width: 16px; height: 16px; position: relative">
+                        <div style="width: 16px; height: 16px; left: 0px; top: 0px; position: absolute; overflow: hidden">
+                          <div style=""><span class="arrow-icon"></span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-devices="Desktop" data-state="Default" style="flex: 1 1 0; height: 376px; position: relative; overflow: hidden; background-image: url(/image/IMAGES.png); flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+                  <div data-kind="C4" data-variant="CATEGORY" style="align-self: stretch; flex: 1 1 0; background: var(--Colors-Token-Backgorund-Base-3, #ECECEC); flex-direction: column; justify-content: flex-end; align-items: flex-start; gap: 10px; display: flex">
+                    <img style="align-self: stretch; flex: 1 1 0" src="/image/IMAGES.png" />
+                  </div>
+                  <div style="padding: 24px; left: 0px; top: 276px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+                    <div data-icon-only="False" data-label="true" data-left-icon="false" data-right-icon="true" data-size="Normal" data-state="Default" data-style="White" data-type="Default" style="padding-left: 16px; padding-right: 16px; padding-top: 12px; padding-bottom: 12px; background: var(--Colors-Token-Button-White, white); box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12); justify-content: center; align-items: center; gap: 6px; display: inline-flex">
+                      <div style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Token-Text-CONTRAST, #010101); font-size: 18px; font-family: Open Sans; font-weight: 600; line-height: 28px; word-wrap: break-word">ATHLETIC SHOES</div>
+                      <div style="width: 16px; height: 16px; position: relative">
+                        <div style="width: 16px; height: 16px; left: 0px; top: 0px; position: absolute; overflow: hidden">
+                          <div style=""><span class="arrow-icon"></span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-devices="Desktop" data-state="Default" style="flex: 1 1 0; height: 376px; position: relative; overflow: hidden; background-image: url(/image/IMAGES.png); flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+                  <div data-kind="C4" data-variant="CATEGORY" style="align-self: stretch; flex: 1 1 0; background: var(--Colors-Token-Backgorund-Base-3, #ECECEC); flex-direction: column; justify-content: flex-end; align-items: flex-start; gap: 10px; display: flex">
+                    <img style="align-self: stretch; flex: 1 1 0" src="/image/IMAGES.png" />
+                  </div>
+                  <div style="padding: 24px; left: 0px; top: 276px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+                    <div data-icon-only="False" data-label="true" data-left-icon="false" data-right-icon="true" data-size="Normal" data-state="Default" data-style="White" data-type="Default" style="padding-left: 16px; padding-right: 16px; padding-top: 12px; padding-bottom: 12px; background: var(--Colors-Token-Button-White, white); box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12); justify-content: center; align-items: center; gap: 6px; display: inline-flex">
+                      <div style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Token-Text-CONTRAST, #010101); font-size: 18px; font-family: Open Sans; font-weight: 600; line-height: 28px; word-wrap: break-word">ATHLETIC SHOES</div>
+                      <div style="width: 16px; height: 16px; position: relative">
+                        <div style="width: 16px; height: 16px; left: 0px; top: 0px; position: absolute; overflow: hidden">
+                          <div style=""><span class="arrow-icon"></span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-devices="Desktop" data-state="Default" style="flex: 1 1 0; height: 376px; position: relative; overflow: hidden; background-image: url(/image/IMAGES.png); flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+                  <div data-kind="C4" data-variant="CATEGORY" style="align-self: stretch; flex: 1 1 0; background: var(--Colors-Token-Backgorund-Base-3, #ECECEC); flex-direction: column; justify-content: flex-end; align-items: flex-start; gap: 10px; display: flex">
+                    <img style="align-self: stretch; flex: 1 1 0" src="/image/IMAGES.png" />
+                  </div>
+                  <div style="padding: 24px; left: 0px; top: 276px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
+                    <div data-icon-only="False" data-label="true" data-left-icon="false" data-right-icon="true" data-size="Normal" data-state="Default" data-style="White" data-type="Default" style="padding-left: 16px; padding-right: 16px; padding-top: 12px; padding-bottom: 12px; background: var(--Colors-Token-Button-White, white); box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12); justify-content: center; align-items: center; gap: 6px; display: inline-flex">
+                      <div style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Token-Text-CONTRAST, #010101); font-size: 18px; font-family: Open Sans; font-weight: 600; line-height: 28px; word-wrap: break-word">ATHLETIC SHOES</div>
+                      <div style="width: 16px; height: 16px; position: relative">
+                        <div style="width: 16px; height: 16px; left: 0px; top: 0px; position: absolute; overflow: hidden">
+                          <div style=""><span class="arrow-icon"></span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: flex">
+            <div style="align-self: stretch; padding-top: 12px; padding-bottom: 12px; border-top: 1px var(--Colors-Token-Border-Primary, #E7E7E7) solid; border-bottom: 1px var(--Colors-Token-Border-Primary, #E7E7E7) solid; justify-content: space-between; align-items: center; display: inline-flex">
+              <div style="width: 776px; justify-content: flex-start; align-items: center; gap: 24px; display: flex">
+                <div data-icon-only="False" data-label="true" data-left-icon="false" data-right-icon="true" data-size="Normal" data-state="Default" data-style="Plain" data-type="Default" style="padding-left: 16px; padding-right: 16px; padding-top: 12px; padding-bottom: 12px; outline: 1px var(--Colors-Token-Border-Black, #010101) solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 6px; display: flex">
+                  <div style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Token-Text-CONTRAST, #010101); font-size: 18px; font-family: Open Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">Lọc</div>
+                  <div data-filled="false" style="width: 16px; height: 16px; position: relative">
+                    <div style="width: 16px; height: 16px; left: 0px; top: 0px; position: absolute; opacity: 0"></div>
+                  </div>
+                </div>
+              </div>
+              <div data-icon-only="False" data-label="true" data-left-icon="false" data-right-icon="false" data-size="Normal" data-state="Default" data-style="Plain" data-type="Default" style="padding-left: 16px; padding-right: 16px; padding-top: 12px; padding-bottom: 12px; outline: 1px var(--Colors-Token-Border-Black, #010101) solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 6px; display: flex">
+                <div style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Token-Text-CONTRAST, #010101); font-size: 18px; font-family: Open Sans; font-weight: 400; line-height: 28px; word-wrap: break-word">SẮP XẾP: Phổ biến</div>
+              </div>
+            </div>
+            <div style="align-self: stretch; color: var(--Colors-Token-Text-CONTRAST-2, #393939); font-size: 24px; font-family: Open Sans; font-weight: 400; line-height: 32px; word-wrap: break-word">Hiển thị 1–30 của 65 kết quả</div>
+            <div class="product-grid" style="width: 100%; margin-bottom: 50px;">
+                <article class="product-card">
+                  <div class="product-image">
+                    <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                    <span class="sale-badge">SALE!</span>
+                    <button class="favorite-button" aria-label="Add to favorites">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                    </button>
+                  </div>
+                  <div class="product-info">
+                    <h3 class="product-title">BROOKS GHOST 15</h3>
+                    <div class="product-rating">
+                      <div class="star-rating" aria-label="4.9 out of 5 stars">
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                      </div>
+                      <span class="rating-count">4.9 (15 đánh giá)</span>
+                    </div>
+                    <div class="product-price">
+                      <del class="original-price">1,000,000 đ</del>
+                      <ins class="sale-price">500,000 đ</ins>
+                    </div>
+                    <div class="product-features">
+                      <h4 class="features-title">Đặc điểm:</h4>
+                      <p class="features-description">Nhẹ, thoáng mát</p>
+                    </div>
+                  </div>
+                  <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+                </article>
+                <article class="product-card">
+                  <div class="product-image">
+                    <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                    <span class="sale-badge">SALE!</span>
+                    <button class="favorite-button" aria-label="Add to favorites">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                    </button>
+                  </div>
+                  <div class="product-info">
+                    <h3 class="product-title">BROOKS GHOST 15</h3>
+                    <div class="product-rating">
+                      <div class="star-rating" aria-label="4.9 out of 5 stars">
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                      </div>
+                      <span class="rating-count">4.9 (15 đánh giá)</span>
+                    </div>
+                    <div class="product-price">
+                      <del class="original-price">1,000,000 đ</del>
+                      <ins class="sale-price">500,000 đ</ins>
+                    </div>
+                    <div class="product-features">
+                      <h4 class="features-title">Đặc điểm:</h4>
+                      <p class="features-description">Nhẹ, thoáng mát</p>
+                    </div>
+                  </div>
+                  <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+                </article>
+                <article class="product-card">
+                  <div class="product-image">
+                    <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                    <span class="sale-badge">SALE!</span>
+                    <button class="favorite-button" aria-label="Add to favorites">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                    </button>
+                  </div>
+                  <div class="product-info">
+                    <h3 class="product-title">BROOKS GHOST 15</h3>
+                    <div class="product-rating">
+                      <div class="star-rating" aria-label="4.9 out of 5 stars">
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                      </div>
+                      <span class="rating-count">4.9 (15 đánh giá)</span>
+                    </div>
+                    <div class="product-price">
+                      <del class="original-price">1,000,000 đ</del>
+                      <ins class="sale-price">500,000 đ</ins>
+                    </div>
+                    <div class="product-features">
+                      <h4 class="features-title">Đặc điểm:</h4>
+                      <p class="features-description">Nhẹ, thoáng mát</p>
+                    </div>
+                  </div>
+                  <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+                </article>
+                <article class="product-card">
+                  <div class="product-image">
+                    <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                    <span class="sale-badge">SALE!</span>
+                    <button class="favorite-button" aria-label="Add to favorites">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                    </button>
+                  </div>
+                  <div class="product-info">
+                    <h3 class="product-title">BROOKS GHOST 15</h3>
+                    <div class="product-rating">
+                      <div class="star-rating" aria-label="4.9 out of 5 stars">
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                      </div>
+                      <span class="rating-count">4.9 (15 đánh giá)</span>
+                    </div>
+                    <div class="product-price">
+                      <del class="original-price">1,000,000 đ</del>
+                      <ins class="sale-price">500,000 đ</ins>
+                    </div>
+                    <div class="product-features">
+                      <h4 class="features-title">Đặc điểm:</h4>
+                      <p class="features-description">Nhẹ, thoáng mát</p>
+                    </div>
+                  </div>
+                  <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+                </article>
+                <article class="product-card">
+                  <div class="product-image">
+                    <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                    <span class="sale-badge">SALE!</span>
+                    <button class="favorite-button" aria-label="Add to favorites">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                    </button>
+                  </div>
+                  <div class="product-info">
+                    <h3 class="product-title">BROOKS GHOST 15</h3>
+                    <div class="product-rating">
+                      <div class="star-rating" aria-label="4.9 out of 5 stars">
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                      </div>
+                      <span class="rating-count">4.9 (15 đánh giá)</span>
+                    </div>
+                    <div class="product-price">
+                      <del class="original-price">1,000,000 đ</del>
+                      <ins class="sale-price">500,000 đ</ins>
+                    </div>
+                    <div class="product-features">
+                      <h4 class="features-title">Đặc điểm:</h4>
+                      <p class="features-description">Nhẹ, thoáng mát</p>
+                    </div>
+                  </div>
+                  <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+                </article>
+            </div>
+            <div class="product-grid" style="width: 100%; margin-bottom: 50px;">
+                <article class="product-card">
+                  <div class="product-image">
+                    <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                    <span class="sale-badge">SALE!</span>
+                    <button class="favorite-button" aria-label="Add to favorites">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                    </button>
+                  </div>
+                  <div class="product-info">
+                    <h3 class="product-title">BROOKS GHOST 15</h3>
+                    <div class="product-rating">
+                      <div class="star-rating" aria-label="4.9 out of 5 stars">
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                      </div>
+                      <span class="rating-count">4.9 (15 đánh giá)</span>
+                    </div>
+                    <div class="product-price">
+                      <del class="original-price">1,000,000 đ</del>
+                      <ins class="sale-price">500,000 đ</ins>
+                    </div>
+                    <div class="product-features">
+                      <h4 class="features-title">Đặc điểm:</h4>
+                      <p class="features-description">Nhẹ, thoáng mát</p>
+                    </div>
+                  </div>
+                  <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+                </article>
+                <article class="product-card">
+                  <div class="product-image">
+                    <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                    <span class="sale-badge">SALE!</span>
+                    <button class="favorite-button" aria-label="Add to favorites">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                    </button>
+                  </div>
+                  <div class="product-info">
+                    <h3 class="product-title">BROOKS GHOST 15</h3>
+                    <div class="product-rating">
+                      <div class="star-rating" aria-label="4.9 out of 5 stars">
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                      </div>
+                      <span class="rating-count">4.9 (15 đánh giá)</span>
+                    </div>
+                    <div class="product-price">
+                      <del class="original-price">1,000,000 đ</del>
+                      <ins class="sale-price">500,000 đ</ins>
+                    </div>
+                    <div class="product-features">
+                      <h4 class="features-title">Đặc điểm:</h4>
+                      <p class="features-description">Nhẹ, thoáng mát</p>
+                    </div>
+                  </div>
+                  <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+                </article>
+                <article class="product-card">
+                  <div class="product-image">
+                    <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                    <span class="sale-badge">SALE!</span>
+                    <button class="favorite-button" aria-label="Add to favorites">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                    </button>
+                  </div>
+                  <div class="product-info">
+                    <h3 class="product-title">BROOKS GHOST 15</h3>
+                    <div class="product-rating">
+                      <div class="star-rating" aria-label="4.9 out of 5 stars">
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                      </div>
+                      <span class="rating-count">4.9 (15 đánh giá)</span>
+                    </div>
+                    <div class="product-price">
+                      <del class="original-price">1,000,000 đ</del>
+                      <ins class="sale-price">500,000 đ</ins>
+                    </div>
+                    <div class="product-features">
+                      <h4 class="features-title">Đặc điểm:</h4>
+                      <p class="features-description">Nhẹ, thoáng mát</p>
+                    </div>
+                  </div>
+                  <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+                </article>
+                <article class="product-card">
+                  <div class="product-image">
+                    <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                    <span class="sale-badge">SALE!</span>
+                    <button class="favorite-button" aria-label="Add to favorites">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                    </button>
+                  </div>
+                  <div class="product-info">
+                    <h3 class="product-title">BROOKS GHOST 15</h3>
+                    <div class="product-rating">
+                      <div class="star-rating" aria-label="4.9 out of 5 stars">
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                      </div>
+                      <span class="rating-count">4.9 (15 đánh giá)</span>
+                    </div>
+                    <div class="product-price">
+                      <del class="original-price">1,000,000 đ</del>
+                      <ins class="sale-price">500,000 đ</ins>
+                    </div>
+                    <div class="product-features">
+                      <h4 class="features-title">Đặc điểm:</h4>
+                      <p class="features-description">Nhẹ, thoáng mát</p>
+                    </div>
+                  </div>
+                  <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+                </article>
+                <article class="product-card">
+                  <div class="product-image">
+                    <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                    <span class="sale-badge">SALE!</span>
+                    <button class="favorite-button" aria-label="Add to favorites">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                    </button>
+                  </div>
+                  <div class="product-info">
+                    <h3 class="product-title">BROOKS GHOST 15</h3>
+                    <div class="product-rating">
+                      <div class="star-rating" aria-label="4.9 out of 5 stars">
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                      </div>
+                      <span class="rating-count">4.9 (15 đánh giá)</span>
+                    </div>
+                    <div class="product-price">
+                      <del class="original-price">1,000,000 đ</del>
+                      <ins class="sale-price">500,000 đ</ins>
+                    </div>
+                    <div class="product-features">
+                      <h4 class="features-title">Đặc điểm:</h4>
+                      <p class="features-description">Nhẹ, thoáng mát</p>
+                    </div>
+                  </div>
+                  <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+                </article>
+            </div>
+            <div class="product-grid" style="width: 100%; margin-bottom: 50px;">
+                <article class="product-card">
+                  <div class="product-image">
+                    <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                    <span class="sale-badge">SALE!</span>
+                    <button class="favorite-button" aria-label="Add to favorites">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                    </button>
+                  </div>
+                  <div class="product-info">
+                    <h3 class="product-title">BROOKS GHOST 15</h3>
+                    <div class="product-rating">
+                      <div class="star-rating" aria-label="4.9 out of 5 stars">
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                      </div>
+                      <span class="rating-count">4.9 (15 đánh giá)</span>
+                    </div>
+                    <div class="product-price">
+                      <del class="original-price">1,000,000 đ</del>
+                      <ins class="sale-price">500,000 đ</ins>
+                    </div>
+                    <div class="product-features">
+                      <h4 class="features-title">Đặc điểm:</h4>
+                      <p class="features-description">Nhẹ, thoáng mát</p>
+                    </div>
+                  </div>
+                  <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+                </article>
+                <article class="product-card">
+                  <div class="product-image">
+                    <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                    <span class="sale-badge">SALE!</span>
+                    <button class="favorite-button" aria-label="Add to favorites">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                    </button>
+                  </div>
+                  <div class="product-info">
+                    <h3 class="product-title">BROOKS GHOST 15</h3>
+                    <div class="product-rating">
+                      <div class="star-rating" aria-label="4.9 out of 5 stars">
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                      </div>
+                      <span class="rating-count">4.9 (15 đánh giá)</span>
+                    </div>
+                    <div class="product-price">
+                      <del class="original-price">1,000,000 đ</del>
+                      <ins class="sale-price">500,000 đ</ins>
+                    </div>
+                    <div class="product-features">
+                      <h4 class="features-title">Đặc điểm:</h4>
+                      <p class="features-description">Nhẹ, thoáng mát</p>
+                    </div>
+                  </div>
+                  <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+                </article>
+                <article class="product-card">
+                  <div class="product-image">
+                    <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                    <span class="sale-badge">SALE!</span>
+                    <button class="favorite-button" aria-label="Add to favorites">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                    </button>
+                  </div>
+                  <div class="product-info">
+                    <h3 class="product-title">BROOKS GHOST 15</h3>
+                    <div class="product-rating">
+                      <div class="star-rating" aria-label="4.9 out of 5 stars">
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                      </div>
+                      <span class="rating-count">4.9 (15 đánh giá)</span>
+                    </div>
+                    <div class="product-price">
+                      <del class="original-price">1,000,000 đ</del>
+                      <ins class="sale-price">500,000 đ</ins>
+                    </div>
+                    <div class="product-features">
+                      <h4 class="features-title">Đặc điểm:</h4>
+                      <p class="features-description">Nhẹ, thoáng mát</p>
+                    </div>
+                  </div>
+                  <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+                </article>
+                <article class="product-card">
+                  <div class="product-image">
+                    <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                    <span class="sale-badge">SALE!</span>
+                    <button class="favorite-button" aria-label="Add to favorites">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                    </button>
+                  </div>
+                  <div class="product-info">
+                    <h3 class="product-title">BROOKS GHOST 15</h3>
+                    <div class="product-rating">
+                      <div class="star-rating" aria-label="4.9 out of 5 stars">
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                      </div>
+                      <span class="rating-count">4.9 (15 đánh giá)</span>
+                    </div>
+                    <div class="product-price">
+                      <del class="original-price">1,000,000 đ</del>
+                      <ins class="sale-price">500,000 đ</ins>
+                    </div>
+                    <div class="product-features">
+                      <h4 class="features-title">Đặc điểm:</h4>
+                      <p class="features-description">Nhẹ, thoáng mát</p>
+                    </div>
+                  </div>
+                  <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+                </article>
+                <article class="product-card">
+                  <div class="product-image">
+                    <img src="/image/product.png" alt="BROOKS GHOST 15" />
+                    <span class="sale-badge">SALE!</span>
+                    <button class="favorite-button" aria-label="Add to favorites">
+                      <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/interaction---heart.svg" alt="Favorite" />
+                    </button>
+                  </div>
+                  <div class="product-info">
+                    <h3 class="product-title">BROOKS GHOST 15</h3>
+                    <div class="product-rating">
+                      <div class="star-rating" aria-label="4.9 out of 5 stars">
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px-1.svg" alt="Full star" />
+                        <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/icon-black-24px.svg" alt="Half star" />
+                      </div>
+                      <span class="rating-count">4.9 (15 đánh giá)</span>
+                    </div>
+                    <div class="product-price">
+                      <del class="original-price">1,000,000 đ</del>
+                      <ins class="sale-price">500,000 đ</ins>
+                    </div>
+                    <div class="product-features">
+                      <h4 class="features-title">Đặc điểm:</h4>
+                      <p class="features-description">Nhẹ, thoáng mát</p>
+                    </div>
+                  </div>
+                  <button class="add-to-cart">ADD TO CART<span class="arrow-icon-add"></span></button>
+                </article>
+            </div>
+          </div>
+          <div style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: center; gap: 32px; display: flex">
+            <div style="padding-left: 16px; padding-right: 16px; padding-top: 12px; padding-bottom: 12px; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12); outline: 1px var(--Colors-Token-Border-Black, #010101) solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 6px; display: inline-flex">
+              <div style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Token-Text-CONTRAST, #010101); font-size: 14px; font-family: Open Sans; font-weight: 500; line-height: 24px; word-wrap: break-word">XEM THÊM</div>
+            </div>
+            <div style="align-self: stretch; text-align: center; color: var(--Colors-Token-Text-CONTRAST-2, #393939); font-size: 24px; font-family: Open Sans; font-weight: 400; line-height: 32px; word-wrap: break-word">Hiển thị 1–30 của 65 kết quả</div>
+          </div>
+        </div>
+      </div>
+    <footer class="footer">
+        <div class="newsletter">
+          <div class="newsletter-content">
+            <h2 class="newsletter-title">Hãy là người đầu tiên biết về các đợt giảm giá mới và ưu đãi độc quyền!</h2>
+            <p class="newsletter-description">
+              Đăng ký nhận bản tin của chúng tôi để có quyền truy cập sớm, ưu đãi đặc biệt và xu hướng mới nhất.
+            </p>
+          </div>
+          <form class="newsletter-form">
+            <input
+              type="email"
+              placeholder="Your Email"
+              aria-label="Your email address"
+              required
+              class="newsletter-input"
+            />
+            <button type="submit" class="newsletter-submit">ĐĂNG KÝ<span class="arrow-icon"></span></button>
+          </form>
+        </div>
+        <div class="footer-content">
+          <div class="footer-info">
+            <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/logo.svg" alt="Zapatos logo" class="footer-logo" />
+            <p class="footer-description">
+              Không chỉ là giày, mà còn là một tuyên bố.<br />Những cú đá được thiết kế để giúp bạn đi trước một bước
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Facebook"
+                ><img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/social-icons.svg" alt="Facebook icon"
+              /></a>
+              <a href="#" class="social-link" aria-label="Twitter"
+                ><img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/social-icons-1.svg" alt="Twitter icon"
+              /></a>
+              <a href="#" class="social-link" aria-label="Instagram"
+                ><img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/social-icons-2.svg" alt="Instagram icon"
+              /></a>
+              <a href="#" class="social-link" aria-label="YouTube"
+                ><img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/social-icons-3.svg" alt="YouTube icon"
+              /></a>
+            </div>
+            <div class="contact-info">
+              <p><img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/phone.svg" alt="Phone icon" /> 08978978789</p>
+              <p>
+                <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/mail.svg" alt="Email icon" />
+                supportoursmallbusiness@g.com
+              </p>
+            </div>
+          </div>
+          <nav class="footer-nav">
+            <div class="footer-nav-column">
+              <h3 class="footer-nav-title">SHOP</h3>
+              <ul>
+                <li><a href="#">Nam</a></li>
+                <li><a href="#">Trẻ Em</a></li>
+                <li><a href="#">Nữ</a></li>
+              </ul>
+            </div>
+            <div class="footer-nav-column">
+              <h3 class="footer-nav-title">THƯƠNG HIỆU</h3>
+              <ul>
+                <li><a href="#">Adidas</a></li>
+                <li><a href="#">Nike</a></li>
+                <li><a href="#">Fila</a></li>
+                <li><a href="#">Brooks</a></li>
+                <li><a href="#">Mizuna</a></li>
+                <li><a href="#">Salomon</a></li>
+              </ul>
+            </div>
+            <div class="footer-nav-column">
+              <h3 class="footer-nav-title">CHÍNH SÁCH</h3>
+              <ul>
+                <li><a href="#">Thông tin</a></li>
+                <li><a href="#">Vận chuyển</a></li>
+                <li><a href="#">Điều khoản và điều kiện</a></li>
+                <li><a href="#">Chính sách bảo mật</a></li>
+              </ul>
+            </div>
+            <div class="footer-nav-column">
+              <h3 class="footer-nav-title">HỖ TRỢ</h3>
+              <ul>
+                <li><a href="#">Về chúng tôi</a></li>
+                <li><a href="#">FAQ's</a></li>
+                <li><a href="#">Liên hệ với chúng tôi</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <div class="payment-methods">
+            <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/vector.svg" alt="Visa" style="width: 50px; height: 50px; object-fit: contain;" />
+            <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/frame-1.svg" alt="Mastercard" style="width: 50px; height: 50px; object-fit: contain;" />
+            <img src="https://c.animaapp.com/mae3wfnuhN1ekP/img/frame.svg" alt="American Express" style="width: 50px; height: 50px; object-fit: contain;" />
+            <img
+              src="https://c.animaapp.com/mae3wfnuhN1ekP/img/paypal-logo-white-png-horizontal-1.png"
+              alt="PayPal"
+              style="width: 50px; height: 50px; object-fit: contain;"
+            />
+          </div>
+        </div>
+        </div>
+      </footer>
+  </body>
+</html>
